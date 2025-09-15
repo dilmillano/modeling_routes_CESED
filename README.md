@@ -1,8 +1,27 @@
 ﻿# Modeling Routes CESED
 
-This repository contains R scripts for analyzing cocaine trafficking routes and seizure patterns in Colombia and neighboring countries. The analysis focuses on spatial modeling of drug trafficking routes using least-cost path analysis and resistance surface modeling.
+## Citation
+
+If you use this modeling framework in your research, please cite:
+
+**Aguilar-Gomez, S., Millan-Orduz, D., Marín-Llanes, L., & Vélez, M. A. (Year). Advancing interdisciplinary science for modeling drug trafficking routes.** [Journal/Conference details]
+
+## Ethical and Security Notice
+
+For ethical and security reasons related to the sensitive nature of cocaine trafficking data, the original seizure datasets and the resulting modeled routes cannot be publicly shared. Only the modeling framework and its documentation are provided to ensure reproducibility of the methodology.
+
+## Contact Information
+
+**Corresponding Authors:**
+- **Sandra Aguilar-Gomez**  
+  E-mail: saguilargomez@tec.mx
+
+- **Diana Millan-Orduz**  
+  E-mail: d.millanorduz@uniandes.edu.co
 
 ## Overview
+
+This repository contains R scripts for analyzing cocaine trafficking routes and seizure patterns in Colombia and neighboring countries. The analysis focuses on spatial modeling of drug trafficking routes using least-cost path analysis and resistance surface modeling.
 
 The project analyzes cocaine cultivation clusters, seizure patterns, and models optimal trafficking routes using geographic information systems (GIS) and spatial analysis techniques. The analysis covers the period 2017-2022 and includes data from Colombia, Ecuador, Peru, Brazil, and Venezuela.
 
@@ -162,10 +181,6 @@ library(parallel)    # Parallel computing
 3. Run scripts in numerical order for complete analysis
 4. Adjust file paths as needed for your system
 5. Modify parameters (years, countries, scenarios) as required
-
-## Contact
-
-For questions about this analysis, please contact the CESED research team.
 
 ## License
 
