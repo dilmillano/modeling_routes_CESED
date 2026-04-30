@@ -1,0 +1,117 @@
+# Always track placeholder files (never ignore .gitkeep)
+!.gitkeep
+
+# ============================================================
+# GEOSPATIAL DATA FILES
+# Not shared for ethical/security reasons (see README)
+# ============================================================
+
+# Shapefiles and components
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.qix
+*.shp.xml
+
+# Raster files
+*.tif
+*.tiff
+*.tfw
+*.ovr
+*.aux
+*.aux.xml
+*.xml
+
+# File geodatabase components
+*.gdbtable
+*.gdbtablx
+*.gdbindexes
+*.freelist
+*.horizon
+*.atx
+*.spx
+
+# File Geodatabase directories
+*.gdb/
+
+# GeoPackage and OpenStreetMap formats
+*.gpkg
+*.pbf
+*.osm
+
+# QGIS project and layer metadata files
+*.qgz
+*.qmd
+
+# ============================================================
+# DATA FILES (tabular and serialized)
+# ============================================================
+*.csv
+*.rds
+*.xlsx
+*.xls
+*.json
+*.geojson
+
+# ============================================================
+# DOCUMENTATION (internal, paper drafts)
+# ============================================================
+documentacion/
+
+*.pdf
+*.docx
+*.pptx
+*.doc
+
+# ============================================================
+# LOG AND TEXT FILES (outputs)
+# ============================================================
+*.txt
+*.log
+
+# ============================================================
+# IMAGE AND VISUALIZATION OUTPUTS
+# ============================================================
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.eps
+*.html
+*.htm
+
+# ============================================================
+# ARCHIVES AND SYSTEM FILES
+# ============================================================
+*.zip
+*.tar
+*.gz
+*.7z
+*.lock
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# RESULTS FOLDER (output data only)
+# ============================================================
+06_results/enero_2026/
+06_results/febrero_2026/
+06_results/*.xlsx
+06_results/*.pdf
+06_results/*.png
+
+# ============================================================
+# INTERMEDIATE OSM DATA (keep folder placeholder)
+# ============================================================
+03_cost_surface/intermedios_osm/*
+!03_cost_surface/intermedios_osm/.gitkeep
+
+# ============================================================
+# NOTE: R scripts (.R), JavaScript (.js), and Jupyter
+# notebooks (.ipynb) in /code/ subfolders are NOT ignored.
+# ============================================================
