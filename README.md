@@ -173,22 +173,9 @@ The scripts follow a modular, sequential structure. Adapt the file paths at the 
 
 ## Data Availability and Code Availability
 
-The GitHub repository associated with the paper is openly available at [https://github.com/dilmillano/modeling_routes_CESED](https://github.com/dilmillano/modeling_routes_CESED). Its use requires proper citation of CESED and the researchers associated with this paper.
+This repository contains the complete open-source implementation of the spatial modeling framework developed for this study, including all code to construct the resistance raster, implement the least-cost path (LCP) models, and apply the Ensemble Path Occurrence Forecasting (EPOF) procedure. The code is modular and can be customized for different regions, time periods, or spatial layers of interest. Its use requires proper citation of CESED and the researchers associated with this paper.
 
-The repository includes the complete R-based framework developed for this study, including the code to construct the resistance raster, implement the least-cost path (LCP) models, and this README file that explains how to run and adapt the routines. The code is modular and can be customized for different regions, time periods, or spatial layers of interest (e.g., road networks, river systems, enforcement presence).
-
-**For ethical and security reasons related to the sensitive nature of cocaine trafficking data, the original seizure datasets, the coca cultivation shapefiles (UNODC–SIMCI), and the resulting modeled routes cannot be publicly shared.** Only the modeling framework and its documentation are provided to ensure reproducibility of the methodology.
-
-The following data types are therefore **not included** in this repository:
-
-- Cocaine seizure records (Ministry of Defense, Colombia)
-- Coca cultivation grids (UNODC–SIMCI)
-- Modeled route shapefiles and rasters
-- Cost surface rasters
-- Population rasters (GPW, WorldPop)
-- All intermediate and output geospatial files
-
-Researchers seeking access to the underlying datasets should contact the corresponding author or the relevant data custodians directly.
+**For ethical and security reasons related to the sensitive nature of cocaine trafficking data, the original input datasets and all derived geospatial outputs cannot be publicly shared.** Only the modeling framework and its documentation are provided to ensure reproducibility of the methodology.
 
 ---
 
