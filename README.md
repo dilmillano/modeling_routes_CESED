@@ -1,6 +1,6 @@
 # Modeling Cocaine Trafficking Routes in Colombia: An R-based Least-Cost Path Framework
 
-**Paper:** *Advancing interdisciplinary science for modeling drug trafficking routes*
+**Paper:** *Reconstructing hidden mobility networks in illegal markets*
 
 **Authors:** Sandra Aguilar-Gomez (Tecnológico de Monterrey) · Diana Millan-Orduz (Universidad de los Andes) · Lucas Marín-Llanes (Northwestern University) · Maria Alejandra Vélez (Universidad de los Andes)
 
@@ -183,7 +183,7 @@ This repository contains the complete open-source implementation of the spatial 
 
 If you use this code, please cite:
 
-> Aguilar-Gomez, S., Millan-Orduz, D., Marín-Llanes, L., & Vélez, M. A. (2025). *Advancing interdisciplinary science for modeling drug trafficking routes*. CESED — Centro de Estudios sobre Seguridad y Drogas, Universidad de los Andes.
+> Aguilar-Gomez, S., Millan-Orduz, D., Marín-Llanes, L., & Vélez, M. A. (2025). *Reconstructing hidden mobility networks in illegal markets*. CESED — Centro de Estudios sobre Seguridad y Drogas, Universidad de los Andes.
 
 ---
 
